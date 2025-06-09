@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7xho10xc1o</Fingerprint>
-      <Integrity>Rd73zVQrzjP0m+/foB6wp+AUs426xJTx06tBrZzrjvE=</Integrity>
+      <Fingerprint>a11au8kj5f</Fingerprint>
+      <Integrity>Qt4VhTtqqeG7nzYLSrrZs6oXZbIIL6ZZcACr+lzjvjI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Confirmation.css'))</OriginalItemSpec>

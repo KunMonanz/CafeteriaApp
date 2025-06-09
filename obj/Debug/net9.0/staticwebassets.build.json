@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lrkx1llyzpJdTziem0GwUF2nKGpXXEW5qz2AW79abEk=",
+  "Hash": "sovff7+RhsZwElH37PIL55WfkaVt2RrZ/kQUAfuwCLw=",
   "Source": "CafeteriaApp",
   "BasePath": "_content/CafeteriaApp",
   "Mode": "Default",
@@ -2138,12 +2138,12 @@
       "OriginalItemSpec": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\obj\\Debug\\net9.0\\compressed\\cy6hgjhvqs-7xho10xc1o.gz",
+      "Identity": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\obj\\Debug\\net9.0\\compressed\\cy6hgjhvqs-a11au8kj5f.gz",
       "SourceId": "CafeteriaApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/CafeteriaApp",
-      "RelativePath": "css/Confirmation#[.{fingerprint=7xho10xc1o}]?.css.gz",
+      "RelativePath": "css/Confirmation#[.{fingerprint=a11au8kj5f}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2152,8 +2152,8 @@
       "RelatedAsset": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\css\\Confirmation.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "spqa60ehuk",
-      "Integrity": "QHTrN722mlucOBOoNLKyvkVskGeeQ/ALWw7yIc56qQc=",
+      "Fingerprint": "8lckamw10p",
+      "Integrity": "ROEyk7qrc0WBosenCoL/sFOs2VQ1sFGNzHIeqNYKo98=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\css\\Confirmation.css"
@@ -4273,8 +4273,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7xho10xc1o",
-      "Integrity": "Rd73zVQrzjP0m+/foB6wp+AUs426xJTx06tBrZzrjvE=",
+      "Fingerprint": "a11au8kj5f",
+      "Integrity": "Qt4VhTtqqeG7nzYLSrrZs6oXZbIIL6ZZcACr+lzjvjI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Confirmation.css"
@@ -7536,13 +7536,13 @@
       ]
     },
     {
-      "Route": "css/Confirmation.7xho10xc1o.css",
-      "AssetFile": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\obj\\Debug\\net9.0\\compressed\\cy6hgjhvqs-7xho10xc1o.gz",
+      "Route": "css/Confirmation.a11au8kj5f.css",
+      "AssetFile": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\obj\\Debug\\net9.0\\compressed\\cy6hgjhvqs-a11au8kj5f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002173913043"
+          "Quality": "0.001721170396"
         }
       ],
       "ResponseHeaders": [
@@ -7552,15 +7552,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "459"
+          "Value": "580"
         },
         {
           "Name": "ETag",
-          "Value": "\"QHTrN722mlucOBOoNLKyvkVskGeeQ/ALWw7yIc56qQc=\""
+          "Value": "\"ROEyk7qrc0WBosenCoL/sFOs2VQ1sFGNzHIeqNYKo98=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 09:52:26 GMT"
+          "Value": "Mon, 09 Jun 2025 16:32:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7580,13 +7580,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Rd73zVQrzjP0m+/foB6wp+AUs426xJTx06tBrZzrjvE=\""
+          "Value": "W/\"Qt4VhTtqqeG7nzYLSrrZs6oXZbIIL6ZZcACr+lzjvjI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7xho10xc1o"
+          "Value": "a11au8kj5f"
         },
         {
           "Name": "label",
@@ -7594,12 +7594,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Rd73zVQrzjP0m+/foB6wp+AUs426xJTx06tBrZzrjvE="
+          "Value": "sha256-Qt4VhTtqqeG7nzYLSrrZs6oXZbIIL6ZZcACr+lzjvjI="
         }
       ]
     },
     {
-      "Route": "css/Confirmation.7xho10xc1o.css",
+      "Route": "css/Confirmation.a11au8kj5f.css",
       "AssetFile": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\css\\Confirmation.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -7609,7 +7609,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1422"
+          "Value": "1775"
         },
         {
           "Name": "Content-Type",
@@ -7617,11 +7617,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Rd73zVQrzjP0m+/foB6wp+AUs426xJTx06tBrZzrjvE=\""
+          "Value": "\"Qt4VhTtqqeG7nzYLSrrZs6oXZbIIL6ZZcACr+lzjvjI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 09:52:26 GMT"
+          "Value": "Mon, 09 Jun 2025 16:32:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7631,7 +7631,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7xho10xc1o"
+          "Value": "a11au8kj5f"
         },
         {
           "Name": "label",
@@ -7639,13 +7639,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Rd73zVQrzjP0m+/foB6wp+AUs426xJTx06tBrZzrjvE="
+          "Value": "sha256-Qt4VhTtqqeG7nzYLSrrZs6oXZbIIL6ZZcACr+lzjvjI="
         }
       ]
     },
     {
-      "Route": "css/Confirmation.7xho10xc1o.css.gz",
-      "AssetFile": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\obj\\Debug\\net9.0\\compressed\\cy6hgjhvqs-7xho10xc1o.gz",
+      "Route": "css/Confirmation.a11au8kj5f.css.gz",
+      "AssetFile": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\obj\\Debug\\net9.0\\compressed\\cy6hgjhvqs-a11au8kj5f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7654,7 +7654,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "459"
+          "Value": "580"
         },
         {
           "Name": "Content-Type",
@@ -7662,11 +7662,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QHTrN722mlucOBOoNLKyvkVskGeeQ/ALWw7yIc56qQc=\""
+          "Value": "\"ROEyk7qrc0WBosenCoL/sFOs2VQ1sFGNzHIeqNYKo98=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 09:52:26 GMT"
+          "Value": "Mon, 09 Jun 2025 16:32:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7684,7 +7684,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7xho10xc1o"
+          "Value": "a11au8kj5f"
         },
         {
           "Name": "label",
@@ -7692,18 +7692,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QHTrN722mlucOBOoNLKyvkVskGeeQ/ALWw7yIc56qQc="
+          "Value": "sha256-ROEyk7qrc0WBosenCoL/sFOs2VQ1sFGNzHIeqNYKo98="
         }
       ]
     },
     {
       "Route": "css/Confirmation.css",
-      "AssetFile": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\obj\\Debug\\net9.0\\compressed\\cy6hgjhvqs-7xho10xc1o.gz",
+      "AssetFile": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\obj\\Debug\\net9.0\\compressed\\cy6hgjhvqs-a11au8kj5f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002173913043"
+          "Quality": "0.001721170396"
         }
       ],
       "ResponseHeaders": [
@@ -7713,15 +7713,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "459"
+          "Value": "580"
         },
         {
           "Name": "ETag",
-          "Value": "\"QHTrN722mlucOBOoNLKyvkVskGeeQ/ALWw7yIc56qQc=\""
+          "Value": "\"ROEyk7qrc0WBosenCoL/sFOs2VQ1sFGNzHIeqNYKo98=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 09:52:26 GMT"
+          "Value": "Mon, 09 Jun 2025 16:32:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7741,13 +7741,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Rd73zVQrzjP0m+/foB6wp+AUs426xJTx06tBrZzrjvE=\""
+          "Value": "W/\"Qt4VhTtqqeG7nzYLSrrZs6oXZbIIL6ZZcACr+lzjvjI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Rd73zVQrzjP0m+/foB6wp+AUs426xJTx06tBrZzrjvE="
+          "Value": "sha256-Qt4VhTtqqeG7nzYLSrrZs6oXZbIIL6ZZcACr+lzjvjI="
         }
       ]
     },
@@ -7762,7 +7762,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1422"
+          "Value": "1775"
         },
         {
           "Name": "Content-Type",
@@ -7770,11 +7770,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Rd73zVQrzjP0m+/foB6wp+AUs426xJTx06tBrZzrjvE=\""
+          "Value": "\"Qt4VhTtqqeG7nzYLSrrZs6oXZbIIL6ZZcACr+lzjvjI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 09:52:26 GMT"
+          "Value": "Mon, 09 Jun 2025 16:32:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7784,13 +7784,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Rd73zVQrzjP0m+/foB6wp+AUs426xJTx06tBrZzrjvE="
+          "Value": "sha256-Qt4VhTtqqeG7nzYLSrrZs6oXZbIIL6ZZcACr+lzjvjI="
         }
       ]
     },
     {
       "Route": "css/Confirmation.css.gz",
-      "AssetFile": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\obj\\Debug\\net9.0\\compressed\\cy6hgjhvqs-7xho10xc1o.gz",
+      "AssetFile": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\obj\\Debug\\net9.0\\compressed\\cy6hgjhvqs-a11au8kj5f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7799,7 +7799,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "459"
+          "Value": "580"
         },
         {
           "Name": "Content-Type",
@@ -7807,11 +7807,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QHTrN722mlucOBOoNLKyvkVskGeeQ/ALWw7yIc56qQc=\""
+          "Value": "\"ROEyk7qrc0WBosenCoL/sFOs2VQ1sFGNzHIeqNYKo98=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 09:52:26 GMT"
+          "Value": "Mon, 09 Jun 2025 16:32:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7829,7 +7829,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QHTrN722mlucOBOoNLKyvkVskGeeQ/ALWw7yIc56qQc="
+          "Value": "sha256-ROEyk7qrc0WBosenCoL/sFOs2VQ1sFGNzHIeqNYKo98="
         }
       ]
     },

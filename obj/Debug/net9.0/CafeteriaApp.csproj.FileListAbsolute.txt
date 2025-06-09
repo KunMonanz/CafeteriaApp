@@ -289,7 +289,6 @@ C:\Users\HP 840 G5\Desktop\CafeteriaApp\obj\Debug\net9.0\CafeteriaApp.genruntime
 C:\Users\HP 840 G5\Desktop\CafeteriaApp\obj\Debug\net9.0\ref\CafeteriaApp.dll
 C:\Users\HP 840 G5\Desktop\CafeteriaApp\obj\Debug\net9.0\compressed\q3350eiv9r-tsgz4w7r6b.gz
 C:\Users\HP 840 G5\Desktop\CafeteriaApp\obj\Debug\net9.0\compressed\v3u07qgbm6-dbfquu6ss7.gz
-C:\Users\HP 840 G5\Desktop\CafeteriaApp\obj\Debug\net9.0\compressed\cy6hgjhvqs-7xho10xc1o.gz
 C:\Users\HP 840 G5\Desktop\CafeteriaApp\obj\Debug\net9.0\compressed\yed2cowwd0-tti9fgaodk.gz
 C:\Users\HP 840 G5\Desktop\CafeteriaApp\obj\Debug\net9.0\compressed\3h0dre1tyx-uaon3dwwed.gz
 C:\Users\HP 840 G5\Desktop\CafeteriaApp\obj\Debug\net9.0\compressed\mi1hy27etd-jdj90a1izj.gz
@@ -417,3 +416,5 @@ C:\Users\HP 840 G5\Desktop\CafeteriaApp\bin\Debug\net9.0\ru\Microsoft.CodeAnalys
 C:\Users\HP 840 G5\Desktop\CafeteriaApp\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\HP 840 G5\Desktop\CafeteriaApp\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\HP 840 G5\Desktop\CafeteriaApp\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\HP 840 G5\Desktop\CafeteriaApp\obj\Debug\net9.0\CafeteriaApp.sourcelink.json
+C:\Users\HP 840 G5\Desktop\CafeteriaApp\obj\Debug\net9.0\compressed\cy6hgjhvqs-a11au8kj5f.gz

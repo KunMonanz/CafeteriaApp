@@ -1,68 +1,68 @@
 .order-confirmation-container {
-    max-width: 700px;
+    max-width: 900px;
     margin: 40px auto;
-    padding: 32px 24px;
     background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(25, 118, 210, 0.08);
+    padding: 32px 24px;
 }
-
 .order-confirmation-container h2 {
-    color: #28a745;
+    color: #1976d2;
+    font-weight: 700;
     text-align: center;
-    margin-bottom: 18px;
-}
-
-.order-confirmation-container p {
-    color: #444;
     margin-bottom: 24px;
-    font-size: 1.1rem;
-    text-align: center;
 }
-
+.order-confirmation-container h3 {
+    color: #388e3c;
+    font-weight: 700;
+    margin-top: 28px;
+    text-align: right;
+}
+.order-confirmation-container p {
+    color: #1976d2;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 28px;
+}
 .order-confirmation-container table {
     width: 100%;
-    border-collapse: collapse;
     margin-bottom: 24px;
-    background: #fafbfc;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #f8fafc;
 }
-
-.order-confirmation-container th, 
-.order-confirmation-container td {
-    padding: 12px 10px;
-    border-bottom: 1px solid #e0e0e0;
+.order-confirmation-container th {
+    background: #e3f0ff;
+    color: #1976d2;
+    font-weight: 600;
+    border: none;
+    padding: 14px 8px;
     text-align: left;
 }
-
-.order-confirmation-container th {
-    background: #f1f1f1;
-    color: #444;
+.order-confirmation-container td {
+    vertical-align: middle;
+    border-top: 1px solid #e3eaf1;
+    padding: 12px 8px;
 }
-
-.order-confirmation-container tr:last-child td {
-    border-bottom: none;
-}
-
-.order-confirmation-container h3 {
-    text-align: right;
-    color: #007bff;
-    margin-top: 16px;
-    margin-bottom: 24px;
-}
-
-.order-confirmation-container a.btn {
-    display: block;
-    width: fit-content;
-    margin: 0 auto;
-    background: #007bff;
+.order-confirmation-container .btn-primary {
+    background: linear-gradient(90deg, #1976d2 60%, #64b5f6 100%);
     color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
     padding: 10px 28px;
-    border-radius: 4px;
-    font-size: 1rem;
-    text-decoration: none;
-    transition: background 0.2s;
+    font-size: 1.08rem;
+    box-shadow: 0 2px 8px rgba(25,118,210,0.10);
+    transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+    margin-top: 24px;
+    display: inline-block;
 }
-
-.order-confirmation-container a.btn:hover {
-    background: #0056b3;
+.order-confirmation-container .btn-primary:hover {
+    background: linear-gradient(90deg, #1565c0 60%, #42a5f5 100%);
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(25,118,210,0.18);
+    transform: translateY(-2px) scale(1.03);
+}
+.alert-success {
+    margin-bottom: 24px;
 }

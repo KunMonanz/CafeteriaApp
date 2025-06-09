@@ -1,8 +1,9 @@
 @model CafeteriaApp.Models.Order
 
 @section Styles {
-    <link rel="stylesheet" href="~/css/Confirmation.css" />
+    <link rel="stylesheet" href="~/css/Confirmation.css">
 }
+
 @if (TempData["SuccessMessage"] != null)
 {
     <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -38,5 +39,5 @@
 
     <h3>Total: ₦@Model.Items.Sum(i => i.Quantity * i.MenuItem.Price)</h3>
 
-    <a class="btn btn-primary" asp-controller="Menu" asp-action="Index">🔙 Back to Menu</a>
+    <a class="btn btn-primary" asp-controller="Menu" asp-action="MenuList">🔙 Back to Menu</a>
 </div>
