@@ -1,0 +1,135 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+@section Styles {
+    <style>
+        .register-container {
+            max-width: 480px;
+            margin: 48px auto;
+            background: linear-gradient(135deg, #f8fafc 60%, #e3f0ff 100%);
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(25, 118, 210, 0.08);
+            padding: 36px 32px 28px 32px;
+        }
+        .register-title {
+            color: #1976d2;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 18px;
+        }
+        .register-form .form-floating > .form-control {
+            border-radius: 8px;
+            border: 1.5px solid #b3c6e7;
+            background: #f8fafc;
+            font-size: 1rem;
+        }
+        .register-form .form-floating > .form-control:focus {
+            border-color: #1976d2;
+            box-shadow: 0 0 0 2px #e3f0ff;
+        }
+        .register-form .btn-primary {
+            background: linear-gradient(90deg, #1976d2 60%, #64b5f6 100%);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            padding: 12px 0;
+            font-size: 1.1rem;
+            box-shadow: 0 2px 8px rgba(25,118,210,0.10);
+            transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+        }
+        .register-form .btn-primary:hover {
+            background: linear-gradient(90deg, #1565c0 60%, #42a5f5 100%);
+            color: #fff;
+            box-shadow: 0 4px 16px rgba(25,118,210,0.18);
+            transform: translateY(-2px) scale(1.03);
+        }
+        .register-form .form-label {
+            color: #1976d2;
+            font-weight: 500;
+        }
+        .register-form .text-danger {
+            font-size: 0.98rem;
+        }
+        .register-links {
+            margin-top: 18px;
+            text-align: center;
+        }
+        .register-links a {
+            color: #1976d2;
+            text-decoration: underline;
+            margin: 0 8px;
+            font-weight: 500;
+        }
+        .register-links a:hover {
+            color: #1565c0;
+            text-decoration: none;
+        }
+        .external-login-section {
+            margin-top: 36px;
+            text-align: center;
+        }
+        .external-login-section .btn-primary {
+            margin: 6px 0;
+            width: 100%;
+        }
+    </style>
+}
+
+<div class="register-container">
+    <h1 class="register-title">@ViewData["Title"]</h1>
+    <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="register-form">
+        <h2 class="mb-3" style="font-size:1.25rem;">Create a new account.</h2>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-2" role="alert"></div>
+        <div class="form-floating mb-3">
+            <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+            <label asp-for="Input.Email" class="form-label">Email</label>
+            <span asp-validation-for="Input.Email" class="text-danger"></span>
+        </div>
+        <div class="form-floating mb-3">
+            <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+            <label asp-for="Input.Password" class="form-label">Password</label>
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
+        </div>
+        <div class="form-floating mb-3">
+            <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+            <label asp-for="Input.ConfirmPassword" class="form-label">Confirm Password</label>
+            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+        </div>
+        <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+        <div class="register-links">
+            <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Already have an account? Log in</a>
+        </div>
+    </form>
+    <div class="external-login-section">
+        <h5 class="mb-3 mt-4" style="color:#1976d2;"></h5>
+        @{
+            if ((Model.ExternalLogins?.Count ?? 0) == 0)
+            {
+                <div>
+                    <p>
+                        There are no external authentication services configured. See this
+                        <a href="https://go.microsoft.com/fwlink/?LinkID=532715">article about setting up this ASP.NET application to support logging in via external services</a>.
+                    </p>
+                </div>
+            }
+            else
+            {
+                <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                    @foreach (var provider in Model.ExternalLogins!)
+                    {
+                        <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Register using your @provider.DisplayName account">@provider.DisplayName</button>
+                    }
+                </form>
+            }
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

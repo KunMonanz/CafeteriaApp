@@ -1,0 +1,42 @@
+@model CafeteriaApp.Models.Order
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/Confirmation.css" />
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<div class="order-confirmation-container">
+    <h2>✅ Order Confirmation</h2>
+    <p><strong>Order Date:</strong> @Model.OrderDate.ToString("f")</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Qty</th>
+                <th>Price (₦)</th>
+                <th>Subtotal (₦)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.MenuItem.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>₦@item.MenuItem.Price</td>
+                    <td>₦@(item.Quantity * item.MenuItem.Price)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h3>Total: ₦@Model.Items.Sum(i => i.Quantity * i.MenuItem.Price)</h3>
+
+    <a class="btn btn-primary" asp-controller="Menu" asp-action="Index">🔙 Back to Menu</a>
+</div>

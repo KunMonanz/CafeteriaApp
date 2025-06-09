@@ -1,0 +1,41 @@
+@model List<CafeteriaApp.Models.Order>
+@{
+    ViewData["Title"] = "Order History";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/orderhistory.css" />
+   }
+
+<div class="order-history-container">
+    <h2 class="text-center mb-4 fw-bold" style="color:#1976d2;">Order History</h2>
+    @if (Model != null && Model.Any())
+    {
+        @foreach (var order in Model)
+        {
+            <div class="order-history-card">
+                <h4>
+                    <i class="bi bi-calendar-event"></i>
+                    Order on @order.OrderDate.ToString("dddd, MMM d, yyyy")
+                </h4>
+                <ul>
+                    @foreach (var item in order.Items)
+                    {
+                        <li>
+                            <span>@item.MenuItem.Name</span>
+                            <span class="order-history-badge">@item.Quantity</span>
+                            
+                        </li>
+                    }
+                </ul>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="no-orders">
+            <i class="bi bi-emoji-frown" style="font-size:2rem;"></i><br />
+            You have not placed any orders yet.
+        </div>
+    }
+</div>

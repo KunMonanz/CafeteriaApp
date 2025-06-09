@@ -1,0 +1,381 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\CafeteriaApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CafeteriaApp.1hsd8okbgd.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\css\\Confirmation.css",
+      "PackagePath": "staticwebassets\\css\\Confirmation.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\css\\admin-order.css",
+      "PackagePath": "staticwebassets\\css\\admin-order.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\css\\cart.css",
+      "PackagePath": "staticwebassets\\css\\cart.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\css\\gallery.css",
+      "PackagePath": "staticwebassets\\css\\gallery.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\css\\menulist.css",
+      "PackagePath": "staticwebassets\\css\\menulist.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\css\\ordercreate.css",
+      "PackagePath": "staticwebassets\\css\\ordercreate.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\css\\orderhistory.css",
+      "PackagePath": "staticwebassets\\css\\orderhistory.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\amala.jpg",
+      "PackagePath": "staticwebassets\\images\\amala.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\cafeteria-welcome.jpg",
+      "PackagePath": "staticwebassets\\images\\cafeteria-welcome.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\chicken.jpg",
+      "PackagePath": "staticwebassets\\images\\chicken.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\dotnet-runtime-8.0.16-win-x64.exe",
+      "PackagePath": "staticwebassets\\images\\dotnet-runtime-8.0.16-win-x64.exe"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\download.jpg",
+      "PackagePath": "staticwebassets\\images\\download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\fried-rice.jpg",
+      "PackagePath": "staticwebassets\\images\\fried-rice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\fufu.jpg",
+      "PackagePath": "staticwebassets\\images\\fufu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\jollof-rice.jpg",
+      "PackagePath": "staticwebassets\\images\\jollof-rice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\meat.jpg",
+      "PackagePath": "staticwebassets\\images\\meat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\menu\\158f9658-d315-4c75-8e3a-63194fb4de2a.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\158f9658-d315-4c75-8e3a-63194fb4de2a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\menu\\5cbdab52-3da9-4e65-83a9-e224b04bc293.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\5cbdab52-3da9-4e65-83a9-e224b04bc293.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\menu\\911b3dec-3cad-47b8-9f42-36391168bfe3.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\911b3dec-3cad-47b8-9f42-36391168bfe3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\menu\\9b990261-dc53-4b71-94ca-527edbe7590c.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\9b990261-dc53-4b71-94ca-527edbe7590c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\menu\\a1eac3bd-50d1-4788-905b-f04e1cd3a1e3.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\a1eac3bd-50d1-4788-905b-f04e1cd3a1e3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\menu\\b92f6e21-9264-47b9-b7b8-26482516edf3.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\b92f6e21-9264-47b9-b7b8-26482516edf3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\ofada-rice.jpg",
+      "PackagePath": "staticwebassets\\images\\ofada-rice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\images\\spaghetti.jpg",
+      "PackagePath": "staticwebassets\\images\\spaghetti.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP 840 G5\\Desktop\\CafeteriaApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.CafeteriaApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.CafeteriaApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.CafeteriaApp.props",
+      "PackagePath": "build\\CafeteriaApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.CafeteriaApp.props",
+      "PackagePath": "buildMultiTargeting\\CafeteriaApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.CafeteriaApp.props",
+      "PackagePath": "buildTransitive\\CafeteriaApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

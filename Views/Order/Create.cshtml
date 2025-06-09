@@ -1,0 +1,32 @@
+@model List<CafeteriaApp.Models.MenuItem>
+@{
+    ViewData["Title"] = "Place Order";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/ordercreate.css" />
+}
+
+<div class="order-form-container">
+    <h1>Place Your Order</h1>
+
+    <form asp-action="Create" method="post">
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Price</td>
+                    <td>
+                        <input type="number" name="itemQuantities[@item.MenuItemId]" value="0" min="0" />
+                    </td>
+                </tr>
+            }
+        </table>
+        <button type="submit">Submit Order</button>
+    </form>
+</div>

@@ -1,0 +1,99 @@
+.order-card {
+    border-radius: 16px;
+    transition: box-shadow 0.2s, transform 0.2s;
+    background: linear-gradient(135deg, #f8fafc 60%, #e3f0ff 100%);
+    border: 2px solid #e3f0ff;
+    box-shadow: 0 2px 12px rgba(0,123,255,0.08);
+    position: relative;
+    overflow: hidden;
+}
+.order-card:hover {
+    box-shadow: 0 8px 32px rgba(0,123,255,0.18);
+    transform: translateY(-6px) scale(1.03);
+    border-color: #90caf9;
+    background: linear-gradient(135deg, #e3f0ff 60%, #f8fafc 100%);
+}
+.order-card .card-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #1976d2;
+    margin-bottom: 0.5rem;
+}
+.order-card .card-subtitle {
+    color: #6c757d;
+    font-size: 0.98rem;
+    margin-bottom: 1rem;
+}
+.order-card .list-group-item {
+    font-size: 1rem;
+    background: #fffbe7;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    color: #795548;
+    box-shadow: 0 1px 4px rgba(255,193,7,0.07);
+}
+.order-card .list-group-item:last-child {
+    margin-bottom: 0;
+}
+.order-card .badge {
+    font-size: 1rem;
+    padding: 7px 14px;
+    background: linear-gradient(90deg, #ff9800 60%, #ffd54f 100%);
+    color: #fff;
+    box-shadow: 0 1px 4px rgba(255,152,0,0.12);
+}
+.order-card .badge.bg-primary {
+    background: linear-gradient(90deg, #1976d2 60%, #64b5f6 100%) !important;
+}
+
+.admin-form-card {
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 32px 28px;
+            border-radius: 16px;
+            background: linear-gradient(135deg, #f8fafc 60%, #e3f0ff 100%);
+            box-shadow: 0 2px 12px rgba(0,123,255,0.08);
+            border: 2px solid #e3f0ff;
+        }
+        .admin-form-card h1 {
+            color: #1976d2;
+            font-weight: 700;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+        .admin-form-card label {
+            font-weight: 600;
+            color: #1976d2;
+        }
+        .admin-form-card input[type="text"],
+        .admin-form-card input[type="number"],
+        .admin-form-card textarea,
+        .admin-form-card input[type="file"] {
+            width: 100%;
+            padding: 10px 12px;
+            margin-bottom: 18px;
+            border-radius: 8px;
+            border: 1.5px solid #b3c6e7;
+            background: #fff;
+            font-size: 1rem;
+        }
+        .admin-form-card textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+        .admin-form-card button[type="submit"] {
+            width: 100%;
+            background: linear-gradient(90deg, #1976d2 60%, #64b5f6 100%);
+            color: #fff;
+            font-weight: 700;
+            padding: 12px 0;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            box-shadow: 0 2px 8px rgba(25,118,210,0.08);
+            transition: background 0.2s;
+        }
+        .admin-form-card button[type="submit"]:hover {
+            background: linear-gradient(90deg, #1565c0 60%, #42a5f5 100%);
+        }

@@ -1,0 +1,355 @@
+﻿/* Navbar Brand */
+a.navbar-brand {
+  white-space: nowrap;
+  text-align: left;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #1976d2 !important;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 6px;
+  transition: color 0.2s, background 0.2s;
+  margin: 0 2px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active,
+.navbar-nav .btn:hover {
+  color: #fff !important;
+  background: #1976d2 !important;
+  text-decoration: none;
+}
+
+/* Admin Buttons in Navbar */
+.navbar-nav .btn {
+  font-weight: 600;
+  border-radius: 6px;
+  margin-left: 8px;
+  transition: background 0.2s, color 0.2s;
+  padding: 8px 18px;
+}
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #1976d2 !important;
+  border-color: #1565c0 !important;
+}
+
+.btn-outline-primary {
+  color: #1976d2 !important;
+  border-color: #1976d2 !important;
+  background: #fff !important;
+}
+
+.btn-outline-primary:hover {
+  background: #1976d2 !important;
+  color: #fff !important;
+}
+
+/* Navbar Layout */
+.navbar {
+  box-shadow: 0 2px 12px rgba(25, 118, 210, 0.06);
+  padding: 0.5rem 1.5rem;
+  background: #fff;
+}
+
+.navbar-nav {
+  gap: 0.5rem;
+}
+
+li.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+/* Logout Form in Navbar */
+li form {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav .btn-link {
+  color: #333 !important;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 6px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.navbar-nav .btn-link:hover {
+  color: #fff !important;
+  background: #1976d2 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .navbar-nav .nav-link,
+  .navbar-nav .btn,
+  .navbar-nav .btn-link {
+    padding: 10px 12px;
+    font-size: 1rem;
+    margin: 2px 0;
+  }
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+}
+
+/* Utility */
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+/* Navbar Brand */
+a.navbar-brand {
+  white-space: nowrap;
+  text-align: left;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #1976d2 !important;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 6px;
+  transition: color 0.2s, background 0.2s;
+  margin: 0 2px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active,
+.navbar-nav .btn:hover {
+  color: #fff !important;
+  background: #1976d2 !important;
+  text-decoration: none;
+}
+
+/* Admin Buttons in Navbar */
+.navbar-nav .btn {
+  font-weight: 600;
+  border-radius: 6px;
+  margin-left: 8px;
+  transition: background 0.2s, color 0.2s;
+  padding: 8px 18px;
+}
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #1976d2 !important;
+  border-color: #1565c0 !important;
+}
+
+.btn-outline-primary {
+  color: #1976d2 !important;
+  border-color: #1976d2 !important;
+  background: #fff !important;
+}
+
+.btn-outline-primary:hover {
+  background: #1976d2 !important;
+  color: #fff !important;
+}
+
+/* Navbar Layout */
+.navbar {
+  box-shadow: 0 2px 12px rgba(25, 118, 210, 0.06);
+  padding: 0.5rem 1.5rem;
+  background: #fff;
+}
+
+.navbar-nav {
+  gap: 0.5rem;
+}
+
+li.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+/* Logout Form in Navbar */
+li form {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav .btn-link {
+  color: #333 !important;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 6px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.navbar-nav .btn-link:hover {
+  color: #fff !important;
+  background: #1976d2 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .navbar-nav .nav-link,
+  .navbar-nav .btn,
+  .navbar-nav .btn-link {
+    padding: 10px 12px;
+    font-size: 1rem;
+    margin: 2px 0;
+  }
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+}
+
+/* Utility */
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+/* General Body Styling */
+body {
+  background: #f4f8fb;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  color: #222;
+  min-height: 100vh;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  color: #1976d2;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Card Style for Content Sections */
+.card, .admin-form-card, .order-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(25, 118, 210, 0.08);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+/* Buttons */
+.btn, .btn-primary, .btn-outline-primary {
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(25, 118, 210, 0.07);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #1976d2 60%, #64b5f6 100%);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #1565c0 60%, #42a5f5 100%);
+}
+
+.btn-outline-primary {
+  border: 2px solid #1976d2;
+  color: #1976d2;
+  background: #fff;
+}
+
+.btn-outline-primary:hover {
+  background: #1976d2;
+  color: #fff;
+}
+
+/* Form Inputs */
+input[type="text"], input[type="number"], input[type="email"], textarea, select {
+  border-radius: 8px;
+  border: 1.5px solid #b3c6e7;
+  padding: 10px 12px;
+  background: #f8fafc;
+  font-size: 1rem;
+  margin-bottom: 16px;
+  width: 100%;
+  transition: border-color 0.2s;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #1976d2;
+  outline: none;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.05);
+  margin-bottom: 32px;
+}
+
+th, td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #e3eaf1;
+}
+
+th {
+  background: #e3f0ff;
+  color: #1976d2;
+  font-weight: 600;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Alerts */
+.alert {
+  border-radius: 8px;
+  padding: 16px 20px;
+  font-size: 1.05rem;
+}
+
+/* Footer */
+footer.footer {
+  background: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1rem;
+  border-top: 4px solid #1976d2;
+  margin-top: 40px;
+  width: 100%;
+}
+
+footer.footer a {
+  color: #ffc107;
+  text-decoration: underline;
+  margin-left: 8px;
+}
+
+footer.footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.mt-5 { margin-top: 3rem !important; }
+.mb-5 { margin-bottom: 3rem !important; }
+.text-center { text-align: center !important; }
+.fw-bold { font-weight: bold !important; }

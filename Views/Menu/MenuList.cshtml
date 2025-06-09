@@ -1,0 +1,63 @@
+@{
+    ViewData["Title"] = "Cafeteria Menu";
+    var isAdmin = ViewBag.IsAdmin as bool? ?? false;
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/menulist.css" />
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" 
+        aria-label="Close"></button>
+    </div>
+}
+
+<div class="menu-list-container">
+    <h1 class="text-center mb-4 fw-bold" style="color:#1976d2;">Menu</h1>
+    <div class="menu-card-grid">
+        @foreach (var item in Model)
+        {
+            <div class="menu-card">
+                <img src="@(string.IsNullOrEmpty(item.ImagePath) ? Url.Content("~/images/default-menu-item.png") : item.ImagePath)" alt="@item.Name" class="menu-item-image" />
+                <div class="menu-card-body">
+                    <div class="menu-card-title">@item.Name</div>
+                    <div class="menu-card-price">₦@item.Price</div>
+                    <div class="menu-card-desc">@item.Description</div>
+                </div>
+                <div class="menu-card-footer d-flex flex-wrap gap-2">
+                    @if (isAdmin)
+                    {
+                        <form asp-action="Delete" asp-controller="Menu" asp-route-itemid="@item.MenuItemId" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                        <a asp-controller="Menu" asp-action="Edit" asp-route-id="@item.MenuItemId" class="btn btn-warning">Edit</a>
+                    }
+                    <form asp-controller="Cart" asp-action="AddToCart" method="post" class="d-inline">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="menuItemId" value="@item.MenuItemId" />
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            Add to Cart
+                        </button>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+

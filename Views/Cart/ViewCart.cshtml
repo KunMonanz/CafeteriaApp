@@ -1,0 +1,89 @@
+@model Cart
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/cart.css" />
+}
+@section Scripts {
+<script>
+document.querySelectorAll('.cart-table input[type="number"]').forEach(function(input) {
+    input.addEventListener('change', function() {
+        const menuItemId = this.name.match(/\d+/)[0];
+        const quantity = this.value;
+
+        fetch('@Url.Action("UpdateQuantity", "Cart")', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+            },
+            body: JSON.stringify({ menuItemId: menuItemId, quantity: quantity })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                location.reload(); // Reload to update totals
+            }
+        });
+    });
+});
+</script>
+}
+
+<div class="cart-container">
+    <h2 class="cart-title">Your Cart</h2>
+
+    @if (Model == null || Model.Items.Count == 0)
+    {
+        <div class="cart-empty">
+            <i class="bi bi-cart-x" style="font-size:2rem;"></i><br />
+            Your cart is empty.
+        </div>
+    }
+    else
+    {
+        <form asp-action="Create" method="post">
+            @Html.AntiForgeryToken()
+            <table class="table cart-table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price (₦)</th>
+                        <th>Quantity</th>
+                        <th>Total (₦)</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Items)
+                    {
+                        var price = item.MenuItem != null ? item.MenuItem.Price : 0;
+                        <tr>
+                            <td>@(item.MenuItem != null ? item.MenuItem.Name : "Unknown")</td>
+                            <td>@price</td>
+                            <td>
+                                <input type="number" name="itemQuantities[@item.MenuItemId]" value="@item.Quantity" min="1" />
+                            </td>
+                            <td>@(price * item.Quantity)</td>
+                            <td>
+                                <!-- Remove button as a standalone form, NOT nested inside the main form -->
+                              
+                                <button type="submit"
+                                        name="menuItemId"
+                                        value="@item.MenuItemId"
+                                        formaction="@Url.Action("RemoveFromCart", "Cart")"
+                                        formmethod="post"
+                                        class="btn btn-danger btn-sm">
+                                    Remove
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </form>
+        <form asp-action="Checkout" method="post" class="cart-actions" onsubmit="return confirm('Are you sure you want to checkout?');">
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-success">Checkout</button>
+        </form>
+    }
+</div>

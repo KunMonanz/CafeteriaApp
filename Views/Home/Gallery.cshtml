@@ -1,0 +1,45 @@
+@{
+    ViewData["Title"] = "Gallery";
+    // Example image list. Replace with your own logic or model if needed.
+    var images = new List<string>
+    {
+        "~/images/amala.jpg",
+        "~/images/chicken.jpg",
+        "~/images/fried-rice.jpg",
+        "~/images/fufu.jpg",
+        "~/images/jollof-rice.jpg",
+        "~/images/meat.jpg",
+        "~/images/ofada-rice.jpg",
+        "~/images/spaghetti.jpg"
+    };
+
+    var alt_name = new List<string>
+    {
+        "amala",
+        "chicken",
+        "fried rice",
+        "fufu",
+        "jollof", 
+        "meat",
+        "ofada rice",
+        "spaghetti"
+    };
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/gallery.css" />
+}
+
+<div class="container mt-5 mb-5">
+    <h1 class="text-center mb-4">Gallery</h1>
+    <div class="row g-4 justify-content-center">
+        @for (int i = 0; i < images.Count; i++)
+        {
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card shadow-sm h-100">
+                    <img src="@Url.Content(images[i])" class="card-img-top" alt="@alt_name[i]" title="@alt_name[i]" style="object-fit:cover; height:200px;">
+                </div>
+            </div>
+        }
+    </div>
+</div>
