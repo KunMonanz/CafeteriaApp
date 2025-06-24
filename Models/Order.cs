@@ -13,5 +13,5 @@ namespace CafeteriaApp.Models
         public DateTime OrderDate { get; set; } = DateTime.Now;
 
         public ICollection<OrderItem> Items { get; set; } = new List<OrderItem>();
-    }
+    }                                                                              
 }
