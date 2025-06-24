@@ -1,0 +1,92 @@
+body {
+    background-color: #fff8f0;
+}
+.navbar {
+    background-color: #ff5722;
+}
+.navbar-brand {
+    color: white;
+    font-size: 24px;      
+    font-weight: bold;
+}
+
+.search input{
+    border-radius: 0px 0px 5px 0px;
+    border-width: 0px 2px 2px 2px;
+    border-color: #ff9226;
+}
+
+.search input:active{
+    box-shadow: none;
+    border-color: #ff5722;
+}
+
+.search input:focus{
+    box-shadow: none;
+    border-color: #ff56224d;
+}
+
+.ordercard{
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s;
+}
+.card img{
+    /* width: 200px; */
+    height: 250px;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-title {
+    color: #ff5722;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #ff5722;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #e64a19;
+}
+
+
+
+h2, h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#showMoreBtn{
+    margin: 20px;
+    width: 50%;
+    border: 2px solid transparent;
+    background-color: #ff5722;
+    transition: background-color 0.5s;
+}
+#showMoreBtn:hover{
+    background-color: #fff8f0;
+    color: #e64a19;
+    border: 2px solid #e64919cb;
+}
+
+form button.orangebtn{
+    border: 2px solid transparent;
+    background-color: #ff5722;
+    transition: background-color 0.5s;
+    margin-bottom: 40px;
+}
+form button.orangebtn:hover{
+    background-color: #fff8f0;
+    color: #e64a19;
+    border: 2px solid #e64919cb;
+    
+}
+
+.placeorder{
+    margin-bottom: 40px;
+}
